@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Healthcare ROI Calculator | SearchStax&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tailwind CSS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Fonts: Barlow &amp; Barlow Semi Condensed --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&amp;family=Barlow+Semi+Condensed:wght@500;600&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Applying custom fonts based on SearchStax Brand Guide */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Barlow', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333333; /* text-gray-800 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, h4, .font-barlow-semi {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Barlow Semi Condensed', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Custom brand colors for Tailwind config */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-brand-orange { background-color: #EB3500; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-brand-orange { color: #EB3500; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-brand-light-gray { background-color: #F5F5F5; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.border-brand-gray { border-color: #C9C9C9; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.focus\:ring-brand-orange:focus {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--tw-ring-color: #EB3500;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.focus\:border-brand-orange:focus {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--tw-border-opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: #EB3500;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-white"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Header --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="py-6 px-4 sm:px-6 lg:px-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Updated SearchStax Logo --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://www.searchstax.com/wp-content/uploads/2022/07/New-Logo-color.svg" alt="SearchStax Logo" class="h-8 w-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Introduction Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="text-center md:text-left mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-3xl md:text-4xl font-semibold uppercase text-gray-800 tracking-wide"&gt;Calculate the ROI of a Better Patient Experience&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-xl md:text-2xl font-medium text-gray-600 mt-2"&gt;Estimate Your Recoverable Revenue &amp; Call Center Savings&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-6 text-base md:text-lg text-gray-700 max-w-4xl mx-auto md:mx-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>A poor website search experience doesn't just frustrate patients—it impacts your bottom line. Failed searches lead to lost patient opportunities and increased call center volume. SearchStax helps you deliver the fast, relevant answers patients expect. Use this calculator to estimate the annual revenue you could recover and the operational costs you could save.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Calculator Tool Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="bg-white p-6 sm:p-8 rounded-lg border border-gray-200 shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;form id="roi-form" class="space-y-10"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Group 1: Your Website &amp; Patient Value --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;legend class="text-xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6 w-full"&gt;Your Website &amp; Patient Value&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="monthly-visitors" class="block text-sm font-medium text-gray-700"&gt;Monthly Website Visitors&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="monthly-visitors" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 500000" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="patient-value" class="block text-sm font-medium text-gray-700"&gt;Value of a New Patient ($)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="patient-value" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 2500" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Group 2: Current Search Performance --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;legend class="text-xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6 w-full"&gt;Current Search Performance&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="search-usage" class="block text-sm font-medium text-gray-700"&gt;Users Who Use Search (%)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="search-usage" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 15" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="search-failure-rate" class="block text-sm font-medium text-gray-700"&gt;Search Failure Rate (%)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="search-failure-rate" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 50" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group md:col-span-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="patient-leakage" class="block text-sm font-medium text-gray-700"&gt;Patient Leakage After Failed Search (%)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="patient-leakage" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 20" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Group 3: Call Center Impact --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;legend class="text-xl font-semibold text-gray-800 border-b-2 border-blue-600 pb-2 mb-6 w-full"&gt;Call Center Impact&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="calls-from-failure" class="block text-sm font-medium text-gray-700"&gt;Failed Searches Resulting in a Call (%)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="calls-from-failure" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 10" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label for="cost-per-call" class="block text-sm font-medium text-gray-700"&gt;Average Cost Per Call ($)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="number" id="cost-per-call" class="mt-1 block w-full px-3 py-2 bg-white border border-brand-gray rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-brand-orange focus:border-brand-orange sm:text-sm" placeholder="e.g., 7" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Calculate Button --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex justify-center pt-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button type="submit" class="font-barlow-semi inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-brand-orange hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-orange transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Calculate ROI</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Results Section (Initially Hidden) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="results-section" class="hidden mt-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-2xl font-semibold text-gray-800 border-b border-gray-200 pb-4 mb-6 text-center"&gt;Your Estimated Annual ROI with SearchStax&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Summary Card --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bg-brand-light-gray p-6 sm:p-8 text-center rounded-lg my-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h4 class="text-lg font-medium text-gray-600"&gt;Total Estimated Annual Value&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="total-roi-value" class="text-5xl md:text-6xl font-bold text-brand-orange my-2"&gt;$0&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-gray-600"&gt;This is the total estimated value from recovering lost revenue and reducing call center costs.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Detailed Breakdown --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Recovered Revenue Card --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white border border-gray-200 rounded-lg p-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-xl font-semibold text-gray-800"&gt;Recovered Patient Revenue&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p id="recovered-revenue" class="text-4xl font-bold text-green-600 my-4"&gt;$0&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-gray-500"&gt;By reducing search failures, you can prevent patient leakage and capture otherwise lost revenue.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Call Center Savings Card --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white border border-gray-200 rounded-lg p-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-xl font-semibold text-gray-800"&gt;Call Center Savings&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p id="call-center-savings" class="text-4xl font-bold text-green-600 my-4"&gt;$0&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-gray-500"&gt;Fewer failed searches means fewer unnecessary calls to your support center.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;p class="mt-8 text-xs text-gray-500 text-center italic"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Calculations assume SearchStax can reduce search failures by 75%. This is a conservative estimate based on typical customer outcomes.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Value Proposition Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="mt-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-2xl font-semibold text-gray-800 border-b border-gray-200 pb-4 mb-8 text-center"&gt;Beyond the Numbers: The Value of Patient-Centric Search&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="value-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-lg font-semibold text-gray-800"&gt;Improve Patient Access and Self-Service&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-2 text-gray-600"&gt;Our platform makes it easier for patients to find cost estimates, understand financial assistance options, and get answers to billing questions without waiting for a call center agent.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="value-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-lg font-semibold text-gray-800"&gt;Increase Critical Form Completions&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-2 text-gray-600"&gt;By connecting patients to the right pages and resources, we can help increase high-value actions, such as appointment requests and financial aid applications.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="value-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-lg font-semibold text-gray-800"&gt;Unify a Scattered Content Ecosystem&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-2 text-gray-600"&gt;SearchStax creates a single, unified search experience across multiple departments, subdomains, and even acquired hospital sites, which is critical as health systems merge.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="value-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-lg font-semibold text-gray-800"&gt;Gain Actionable Insights&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-2 text-gray-600"&gt;Our analytics dashboards show you exactly what your patients are looking for—and where they're getting stuck—so you can continuously improve your web content and digital strategy.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-lg font-medium text-gray-800"&gt;Ready to see how SearchStax can help you improve your patient's digital journey?&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="mailto:marketing@searchstax.com?subject=Healthcare%20Search%20Expert%20Inquiry" class="font-barlow-semi inline-block mt-4 text-base font-semibold text-brand-orange underline hover:text-opacity-80 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Talk to a Healthcare Search Expert</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-gray-800 text-white mt-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; &lt;span id="copyright-year"&gt;&lt;/span&gt; SearchStax Inc. All Rights Reserved.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', function() {</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const copyrightYear = document.getElementById('copyright-year');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (copyrightYear) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>copyrightYear.textContent = new Date().getFullYear();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const form = document.getElementById('roi-form');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (form) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>form.addEventListener('submit', function(event) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>event.preventDefault();</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 1. Get User Inputs ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const monthlyVisitors = parseFloat(document.getElementById('monthly-visitors').value) || 0;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const patientValue = parseFloat(document.getElementById('patient-value').value) || 0;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const searchUsage = (parseFloat(document.getElementById('search-usage').value) || 0) / 100;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const searchFailureRate = (parseFloat(document.getElementById('search-failure-rate').value) || 0) / 100;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const patientLeakage = (parseFloat(document.getElementById('patient-leakage').value) || 0) / 100;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const callsFromFailure = (parseFloat(document.getElementById('calls-from-failure').value) || 0) / 100;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const costPerCall = parseFloat(document.getElementById('cost-per-call').value) || 0;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 2. Define Constants ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const ANNUAL_MONTHS = 12;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const SEARCHSTAX_IMPROVEMENT_RATE = 0.75; // Assume 75% reduction in search failures</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 3. Perform Calculations (Before SearchStax) ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const monthlySearchUsers = monthlyVisitors * searchUsage;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const monthlyFailedSearches_Before = monthlySearchUsers * searchFailureRate;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const annualLostRevenue_Before = monthlyFailedSearches_Before * patientLeakage * patientValue * ANNUAL_MONTHS;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const annualCallCosts_Before = monthlyFailedSearches_Before * callsFromFailure * costPerCall * ANNUAL_MONTHS;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 4. Perform Calculations (After SearchStax) ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const searchFailureRate_After = searchFailureRate * (1 - SEARCHSTAX_IMPROVEMENT_RATE);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const monthlyFailedSearches_After = monthlySearchUsers * searchFailureRate_After;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const annualLostRevenue_After = monthlyFailedSearches_After * patientLeakage * patientValue * ANNUAL_MONTHS;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const annualCallCosts_After = monthlyFailedSearches_After * callsFromFailure * costPerCall * ANNUAL_MONTHS;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 5. Calculate ROI / Savings ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const recoveredRevenue = annualLostRevenue_Before - annualLostRevenue_After;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const callCenterSavings = annualCallCosts_Before - annualCallCosts_After;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const totalROI = recoveredRevenue + callCenterSavings;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// --- 6. Display Results ---</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>displayResults({</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>totalROI,</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>recoveredRevenue,</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>callCenterSavings</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>function displayResults(results) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const resultsSection = document.getElementById('results-section');</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const currencyFormatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('total-roi-value').textContent = currencyFormatter.format(results.totalROI);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('recovered-revenue').textContent = currencyFormatter.format(results.recoveredRevenue);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('call-center-savings').textContent = currencyFormatter.format(results.callCenterSavings);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (resultsSection.classList.contains('hidden')) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>resultsSection.classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>resultsSection.scrollIntoView({ behavior: 'smooth' });</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
